@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="fixed-menu">
+            <h1 class="logo">HR</h1>
+            <div class="nav-links">
+                <a class="nav-link main-link active" href="#main">Главная</a>
+                <a class="nav-link about-link" href="#about">Обо мне</a>
+                <a class="nav-link skills-link" href="#skills">Навыки</a>
+                <a class="nav-link works-link" href="#works">Работы</a>
+                <a class="nav-link contacts-link" href="#contacts">Контакты</a>
+            </div>
+            <div class="mobile-button">
+                <img class="mobile-btn" src="./mobile_menu.png" width="40" >  
+                <img class="mobile-btn btn-hide" src="./close_menu.png" width="40">
+            </div>
+            <div class="mobile-menu hide">
+                <div class="mobile-nav">
+                    <div class="mobile-nav-links">
+                    <a class="nav-link" href="#main">Главная</a>
+                    <a class="nav-link" href="#about">Обо мне</a>
+                    <a class="nav-link" href="#skills">Навыки</a>
+                    <a class="nav-link" href="#works">Работы</a>
+                    <a class="nav-link" href="#contacts">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="main">
+        <div class="main-bug"></div>
+        <div class="main-block">
+            <img src="./maskot.png" width="200">
+            <div class="main-content">
+                <img class="close_btn" src="./close_btn.jpg" width="120">
+                <h1 class="main-title">Хакер Рэкс</h1>
+                <p class="main-subtitle">личная страница разработчика</p>
+            </div>
+            <div class="button">
+                <a href="">Подробнее</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="move-cloud">
+            
+        </div>
+        <h1 class="title">ОБО МНЕ</h1>
+        <div class="about-block">
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-title">
+                        Меня зовут Рэкс.
+                        я занимаюсь разработкой
+                        современных сайтов и приложений.
+                        <br><br>
+                        Мне нравится интересные и современные проекты.
+                    </p>
+                    <div class="button">
+                        <a href="#">Мои навыки</a>
+                    </div>
+                </div>
+            </div>
+            <div class="about-card">
+                <img src="./photo.png" width="300">
+            </div>
+        </div>    
+    </section>
+
+    <section id="skills">
+        <h1 class="title">Навыки</h1>
+        <div class="skills-block">
+            <div class="skills-card">
+                <p>ЭТОТ САЙТ Я СДЕЛАЛ В РАМКАХ ОБУЧЕНИЯ ШКО IT ONLINE SCHOOL</p>
+                <div class="languages">
+                    <img src="./html (1).png" width="70px">
+                    <img src="./css.png" width="70px">
+                    <img src="./js.png" width="70px">
+                </div>
+                <div class="button">
+                    <a href="">Смотреть работы</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="works">
+        <h1 class="title">РАБОТЫ</h1>
+        <img  class="job" src="https://vtsh-oktava.ru/files/1f495edf/2025/02/5377542072431558592.png" width="100px">
+        <div class="works-block">
+            <img src="./work1.png" alt="">
+            <img src="./work2.png" alt="">
+            <img src="./work3.png" alt="">
+        </div>
+    </section>
+
+
+    <section id="contacts">
+        <h1 class="title">КОНТАКТЫ</h1>
+        <div class="contacts-block">
+            <form class="contacts-form" action="">
+                <img src="./close_btn.jpg" alt="">
+                <p>ПОЖАЛУЙСТА, ОСТАВТЕ СВОИ КОНТАКТНЫЕ ДАННЫЕ, ЧТОБЫ Я СМОГ С ВАМИ КАК МОЖНО СКОРЕЕ СВЯЗАТЬСЯ</p>
+                <input type="text" placeholder="Ваше имя..">
+                <input type="email" placeholder="Ваш email...">
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-info">
+            <p>ХАКЕР РЭКС</p>
+            <p>Личный сайт веб разработчика</p>
+        </div>
+        <div class="footer-years">
+            <p>&copy; 2026</p>
+        </div>
+        <div class="footer-links">
+            <a href=""><img src="./facebook.svg" alt=""></a>
+            <a href=""><img src="./instagram.svg" alt=""></a>
+            <a href=""><img src="./telegram.svg" alt=""></a>
+            <a href=""><img src="./discord.svg" alt=""></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
